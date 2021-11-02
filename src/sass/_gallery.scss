@@ -1,0 +1,21 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media(min-width:900px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .gallery-img{
+        overflow: hidden;
+        img {
+            width: 100%;
+            transform: scale(1.1);
+            transition: all .5s ease-in-out;
+            @media(min-width:900px) {
+                transform: scale(1.1);                
+            }
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    background: $secon-grayish-blue;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    .footer__logo img {
+        width: 200px;
+        color: $secon-very-gray-blue;
+        cursor: pointer;
+    }
+    .footer__links a {
+        cursor: pointer;
+        text-decoration: none;
+        color: $secon-very-gray-blue;
+        opacity: .7;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 0 10px;
+        transition: all .5s;
+        &:hover {
+            color: $secon-white;
+        }
+    }
+    .footer__social img {
+        cursor: pointer;
+        color: $secon-very-gray-blue;
+        margin: 0 15px;
+        transition: all .5s;
+        &:hover {
+            color: $secon-white;
+        }
+    }
+}

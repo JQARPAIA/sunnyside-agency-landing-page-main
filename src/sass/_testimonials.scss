@@ -1,0 +1,71 @@
+.testimonials {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 50px;
+    h2 {
+        letter-spacing: 3px;
+        opacity: .7;
+        text-transform: uppercase;
+        margin: 70px auto;
+    }
+
+    .testimonials__cards {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        @media(min-width:900px) {
+            flex-flow: row nowrap;
+        }
+    }
+
+}
+
+.testimonials__card {
+    height: 400px;
+    width: 90%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    @media(min-width:900px) {
+        width: 50%;
+        padding: 2rem;
+    }
+    .testimonials__card-img {
+        display: flex;
+        justify-content: center;
+        height: 30%;
+        img {
+            width: 100px;
+            margin: auto;
+            border-radius: 50%;
+        }
+    }
+    .testimonials__card-p {
+        text-align: center;
+        line-height: 2;
+        font-size: 1.4rem;
+        opacity: .6;
+        font-weight: bold;
+        font-family: 'Barlow', sans-serif;
+    }
+    .testimonials__card-author {
+        text-align: center;
+        .testimonials__card-author-name{
+            margin-bottom: 10px;
+            font-weight: bolder;
+            font-size: 1.1rem;
+        }
+        .testimonials__card-author-charge {
+            opacity: .5;
+            font-size: 1.1rem;
+            font-weight: lighter;
+            font-family: 'Barlow', sans-serif;
+        }
+    }
+}
