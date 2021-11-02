@@ -22,11 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Sunnyside agency landing page](./images/Sunnyside agency landing page.png)
+![Sunnyside agency landing page](./images/Sunnyside-agency-landing-page.png)
 
 ### Links
 
-- Solution URL: [URL](https://jqarpaia.github.io/sunnyside-agency-landing-page-main/)
+- Solution URL: [Sunnyside Agency](https://jqarpaia.github.io/sunnyside-agency-landing-page-main/)
 
 ## Author
 
