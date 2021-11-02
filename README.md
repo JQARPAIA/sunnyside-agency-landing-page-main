@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Sunnyside agency landing page](./images/Sunnyside agency landing page.png)
+![Sunnyside agency landing page](images/Sunnyside agency landing page.png)
 
 ### Links
 
